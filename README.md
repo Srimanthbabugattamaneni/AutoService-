@@ -15,7 +15,7 @@ This project is a simple website for an automotive service center named "AutoSer
 <ul>: Defines an unordered list, typically used for navigation menus.
 <li>:Represents list items within an unordered list.
 <a>:Creates hyperlinks to other web pages or resources.
-<h1>, <h3>: Heading elements used to define headings of different levels (h1 being the highest level).
+<h1>, <h3>: Heading elements used to define headings of different levels .
 <br>: Inserts line breaks to add vertical space between elements.
 <figure>:Represents self-contained content, often used for images and their captions.
 <img>:Embed images into the webpage.
