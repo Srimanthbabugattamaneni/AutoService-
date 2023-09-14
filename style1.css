@@ -1,0 +1,250 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.intial {
+	width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg,rgba(0,0,0,0.2),rgba(0,0,0,0.5)),url("webimages1/istockphoto-495378164-612x612.jpg");
+    background-size: cover;
+}
+header{
+    width: 100%;
+    border-bottom: 2px solid white;
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    height: 4rem;
+}
+
+header nav:hover{
+    background-color: #1b1b1b50;
+
+}
+header nav:hover ul li a{
+    color: rgb(219, 219, 219);
+}
+
+header nav .logo{
+    color: orangered;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    margin-left: 2rem;
+
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+header nav ul li a::after{
+    content: " ";
+    display: block;
+    width: 0;
+    height:2px ;
+    background-color: orangered;
+    color: orangered;
+
+
+}
+header nav ul li a:hover::after{
+    width: 100%;
+
+}
+header nav ul li a :hover{
+    color:orange ;
+    
+}
+.form{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    background:whitesmoke;
+
+
+}
+.callstate{
+    top: auto;
+    text-align: center;
+    margin-top: 12%;
+    
+
+}
+.form::placeholder{
+    align-content: center;
+    color:orangered;
+    text-decoration-color: orangered;
+}
+
+.box input{
+    width: 75%;
+    margin: 10px;
+    margin-top: 18%;
+    margin-left: 21px;
+    padding: 13px 18px;
+    background: transparent;
+    border-color: 1px solid rgba(255, 0, 0, 0.756);
+}
+.form button{
+    width: 75%;
+    text-align: center;
+    background-color: orangered;
+    margin-top: 10px;
+    margin-left: 23px;
+    padding: 11px;
+    border-radius: 7px;
+}
+.Servicetags{
+	display: inline-flex;
+	margin: 20px;
+	width: fit-content;
+	height: fit-content;
+    
+}
+
+.tag {
+    align-items: center;
+	
+	box-shadow: 5px 5px 5px 5px rgb(240, 243, 242);
+    float: left;
+            padding: 40px;
+            margin: 70px;
+            border: 1px solid red;
+            text-align: center;
+}
+.soffer{
+    margin-top: 2%;
+    text-align: center; align-content: center;
+}
+.soffer nav a{
+    align-items: center;
+	padding-left: 50px;
+	box-shadow: 5px 5px 5px 5px rgb(240, 243, 242);
+    float: left;
+    padding: 40px;
+    margin: 40px;
+            border: 1px solid red;
+            text-align: center;
+}
+.schedule {
+    display: flex;
+    justify-content: right;
+    gap:20px;
+    padding: 60px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.circle {
+    
+    width: 15%;
+    height: 20%;
+    background-color:orangered;
+    border-radius: 50%;
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff; 
+    padding: 40px;
+    margin: 70px;
+    
+	
+    
+}
+
+.circle p {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    
+
+  
+}
+
+.circle:hover {
+    background-color: #2980b9;
+    transition: background-color 0.3s;
+}
+.brands{
+    margin-top: 2%;
+    text-align: center; align-content: center;
+}
+.brands h1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.Customers{
+    margin-top: 2%;
+    text-align: center; 
+    align-content: center;
+}
+
+.brands img{
+    max-width: 100%;
+    height: auto;
+}
+
+.hc {
+	margin-top: 100px;
+}
+
+.text4 {
+    align-items: center;
+    font-size: large;
+	width: 40%;
+	height: 250px;
+	display: inline-block;
+	border-radius: 20px;
+	margin: 30px 50px;
+	background-color: aliceblue;
+    text-align: justify;
+    font-family: "sans-serif";
+}
+
+.imgg {
+	float: left;
+}
+
+.footer-container {
+    background: #28282B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-info, .footer-links, .footer-social {
+    flex-basis: calc(20% - 20px); 
+    text-align: center;
+}
+
+.soon h1{
+    text-align: center;
+    color: wheat;
+    font-size: 50px;
+
+}
+
+
+
+

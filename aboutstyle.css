@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+
+
+}
+header{
+    width: 100%;
+    border-bottom: 2px solid white;
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    height: 4rem;
+    background-color: black;
+}
+
+header nav:hover{
+    background-color: #1b1b1b50;
+
+}
+header nav:hover ul li a{
+    color: rgb(219, 219, 219);
+}
+
+header nav .logo{
+    color: orangered;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    margin-left: 2rem;
+
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+header nav ul li a::after{
+    content: " ";
+    display: block;
+    width: 0;
+    height:2px ;
+    background-color: orangered;
+    color: orangered;
+
+
+}
+header nav ul li a:hover::after{
+    width: 100%;
+
+}
+header nav ul li a :hover{
+    color:orange ;
+    
+}
+h1{
+    margin: 15PX;
+    margin-left: 30px;
+}
+.about-content {
+    text-align: center;
+    margin: 20px;
+    font-family:  Helvetica;
+    
+    
+}
+
+.about-content img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    width:"200px" ;
+    height:"200px";
+}    
+    
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Center{
+    text-align: center;
+    align-items: center;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
