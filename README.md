@@ -24,7 +24,6 @@ This project is a simple website for an automotive service center named "AutoSer
 20. <input>:Provides various input fields for user interaction.
 21. <button>: Creates clickable buttons.
 22. <footer>:Represents the bottom section of the webpage, typically containing contact information and links.
-
 23. <video>:Embeds a video player for playing video content.
 
 
